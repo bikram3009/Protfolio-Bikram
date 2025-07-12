@@ -1,0 +1,175 @@
+@media screen and (max-width: 990px) {
+    .banner .row {
+        flex-direction: column-reverse;
+    }
+    header {
+        position: relative;
+        width: 100%;
+        padding: 25px 0px;
+    }
+    .offcanvas-backdrop
+    {
+      display: none;
+    }
+    .navbar-toggler {
+        position: relative;
+        z-index: 9999;
+     }
+     
+     .line {
+        fill: none;
+        stroke: azure;
+        stroke-width: 6;
+        transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
+           stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
+     }
+     
+     .line1 {
+        stroke-dasharray: 60 207;
+        stroke-width: 6;
+     }
+     
+     .line2 {
+        stroke-dasharray: 60 60;
+        stroke-width: 6;
+     }
+     
+     .line3 {
+        stroke-dasharray: 60 207;
+        stroke-width: 6;
+     }
+     
+     .opened .line1 {
+        stroke-dasharray: 90 207;
+        stroke-dashoffset: -134;
+        stroke-width: 6;
+     }
+     
+     .opened .line2 {
+        stroke-dasharray: 1 60;
+        stroke-dashoffset: -30;
+        stroke-width: 6;
+     }
+     
+     .opened .line3 {
+        stroke-dasharray: 90 207;
+        stroke-dashoffset: -134;
+        stroke-width: 6;
+     }
+     
+}
+@media screen and (max-width: 600px)
+{
+   .bnr-img>figure
+   {
+      display: flex;
+   }
+   .bnr-img>figure>img
+   {
+      width: 60%;
+      margin-left: auto;
+      margin-right: auto;
+   }
+   .bnr-text>h1:nth-child(2)
+   {
+      font-size: 35px;
+      margin-bottom: 0px;
+   }
+   .bnr-text>h1:nth-child(3)
+   {
+      font-size: 35px;
+      margin-bottom: 0px;
+   }
+   .footer-nav
+   {
+      column-gap: 20px;
+   }
+   .icons>a>div
+   {
+      padding: 18px;
+   }
+   .section-title h1.title
+   {
+      font-size: 40px;
+   }
+   .footer-nav>li>a
+   {
+      font-size: 14px;
+   }
+}
+@media screen and (max-width: 390px)
+{
+   .bnr-img > figure
+   {
+      margin: 0px;
+   }
+   header .navbar-nav>.nav-item
+   {
+      padding: 10px 0px;
+   }
+   .bnr-text>p:first-child
+   {
+      font-size: 12px;
+      margin-bottom: 10px;
+   }
+   .bnr-text>h1:nth-child(2),
+   .bnr-text>h1:nth-child(3)
+   {
+      line-height: 35px;
+      font-size: 25px;
+   }
+   .bnr-text>p:last-child
+   {
+      font-size: 13px;
+      line-height: 20px;
+   }
+   .icon-box>p
+   {
+      font-size: 12px;
+      margin-bottom: 14px;
+   }
+   .icons>a>div
+   {
+      font-size: 12px;
+   }
+   .icons>a>div>svg
+   {
+      width: 16px;
+   }
+   .section-title h1.title,
+   .title
+   {
+      font-size: 30px;
+      margin-top: 10px;
+   }
+   .section-title span.subtitle,
+   .portfolio .section-title>span
+   {
+      font-size: 12px;
+   }
+   .features .service
+   {
+      padding: 30px 25px;
+   }
+   .portfolio .content h1.title a
+   {
+      font-size: 20px;
+   }
+   .experience-list .resume-list .description
+   {
+      font-size: 16px;
+   }
+   .experience-list .resume-list .heading .title h4
+   {
+      font-size: 20px;
+   }
+   .footer-nav>li>a
+   {
+      font-size: 10px;
+   }
+   .copy-right
+   {
+      margin-top: 20px;
+      font-size: 12px;
+   }
+}
